@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.edit-profile-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+    width: 45%; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column {
+    margin-right: 5%;
+}
+
+.main-div-edit-form{
+	display: flex;
+}

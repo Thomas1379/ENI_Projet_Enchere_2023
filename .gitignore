@@ -1,0 +1,6 @@
+/build/
+.project
+.classpath
+/.settings/
+/src/main/webapp/META-INF/context.xml
+/src/main/webapp/prepros.config

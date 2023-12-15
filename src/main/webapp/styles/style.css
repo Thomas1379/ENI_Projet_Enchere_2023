@@ -1,0 +1,84 @@
+input,
+select {
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  border: solid 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 3rem 1.5rem 3rem;
+  color: white;
+  background-color: #404040;
+}
+nav .logo {
+	text-align: center;
+  font-size: 1.8rem;
+}
+nav div .logo:hover {
+  color: cadetblue;
+}
+nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav div a {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  padding: 0.2rem;
+}
+nav div a:hover {
+  color: cadetblue;
+}
+
+.accueil h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.accueil form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.accueil form label {
+  font-weight: bold;
+}
+.accueil form .search {
+  margin: 10px 0;
+}
+.accueil form .search input {
+  width: 100%;
+}
+.accueil form .categories label {
+  margin-right: 10px;
+}
+.accueil form input[type=submit] {
+  display: block;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
