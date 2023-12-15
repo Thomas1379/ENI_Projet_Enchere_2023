@@ -1,13 +1,147 @@
 @charset "UTF-8";
 
-body{
+nav {    
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	margin: 0;
+	justify-content: space-around;
+	padding: 1.5rem 3rem 1.5rem 3rem;
+	color: white;
+	background-color: cadetblue;
+	
+
+	.logo {
+		font-family: 'DM Serif Display', serif;
+		font-size: 3.5rem;
+		font-weight: 2rem;
+		text-align: center;
+		color: black;
+		border: 2px solid black;
+		border-radius: 1rem;
+		background-color: white;
+		box-shadow: 3px 3px 3px;
+		
+			
+			&:hover {
+				background-color: black;
+				color: cadetblue;
+			}
+	}
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		a {
+			font-size: 1.2rem;
+			margin: 0 0.5rem;
+			padding: 0.2rem;
+			color: black;
+			border: 1px solid black;
+			border-radius: 0.5rem;
+			background-color: white;
+			box-shadow: 3px 3px 3px;
+
+			&:hover {
+				background-color: black;
+				color: cadetblue;
+			}
+		}
+	}
 }
 
-.container {
-    height: 100%;
-}
+.login {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	
+	h2 {
+		text-align: center;
+		font-size: 2.5rem;
+		border: 2px solid black;
+		box-shadow: 3px 3px 3px;
+		font-weight: bold;
+		margin-top: 10px;
+	    }
+	
+	form {
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		border: 4px solid black;
+		background-color: cadetblue;
+		width: 65%;
+		box-shadow: 3px 3px 3px;
+		}
+	
+	.error-alerts{
+		.text-error{
+			padding-left: 10px;
+			background-color: rgba(255, 128, 128, 0.5);
+			
+		}
+	}
+	
+	.div_control_form_login{
+		display: flex;
+		justify-content: center;
+		margin-top: 10%;
+		
+		form{
+			border: 1px solid black;
+			padding: 30px;
+			border: 2px solid black;
+			border-radius: 0.5rem;
+			background-color: cadetblue;
+			box-shadow: 3px 3px 3px;
+			
+			.buttons_connection{
+				
+				input{
+					border: 1px solid black;
+					padding: 10px;
+					border-radius: 0;
+				}
+				input:hover{
+					cursor: pointer;
+					background-color: white;
+		}
+				}
+				a{
+					border: 1px solid black;
+					padding: 10px;
+				}
+				a:hover{
+					cursor: pointer;
+					background-color: white;
+		}
+			}
+			.div-control{
+				label{
+					font-weight: bold;
+				}
+				input{
+					padding: 5px;
+				}
+			}
+		}
+	}
+	.button_create_account{
+		text-align: center;
+		margin-top: 15px;
+		
+		a{
+			margin-top: 10px;
+			padding: 10px 119px 10px 119px;
+			border: 2px solid black;
+			border-radius: 0.5rem;
+			background-color: cadetblue;
+			box-shadow: 3px 3px 3px;
+		}
+		
+		a:hover{
+			background-color: white;
+		}
+	}
+

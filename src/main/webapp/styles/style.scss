@@ -1,172 +1,7 @@
 @charset "UTF-8";
+/*
 
-input,
-select {
-	border: solid 1px black;
-	border-radius: 5px;
-}
 
-input[type=submit] {
-	border: solid 0;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	padding: 1.5rem 3rem 1.5rem 3rem;
-	color: white;
-	background-color: #404040;
-
-	.logo {
-		font-size: 1.8rem;
-			
-			&:hover {
-				color: cadetblue
-			}
-	}
-
-	div {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		a {
-			font-size: 1.2rem;
-			margin: 0 0.5rem;
-			padding: 0.2rem;
-
-			&:hover {
-				color: cadetblue
-			}
-		}
-	}
-}
-
-html,body{
-	 margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-.accueil {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    h2{
-		font-weight: bold;
-		margin-top: 10px;
-	}
-
-    .off_login_articles {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        width: 80%;
-
-        .card {
-            width: calc(28% - 10px); // Approximately 300px with margin
-            border: 1px solid black;
-            margin: 0 5px;
-            box-shadow: 3px 3px 3px;
-            margin-top: 15px;
-            
-            &:hover {
-                border: 2px solid gray;
-                cursor: pointer;
-            }
-
-            img {
-                width: 100%;
-            }
-
-            h3 {
-                text-align: center;
-                font-weight: bold;
-                text-transform: uppercase;
-            }
-            
-            .control_card_info{
-				text-align: center;
-			}
-        }
-        
-        .article_not_found{
-			display: flex;
-			flex-direction: column;
-			p{
-				margin-bottom: 50px;
-				font-weight: bold;
-				font-size: 25px;
-			}
-			img{
-				margin-left: -100px;
-			}
-		}
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    form {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        border: 30px solid black;
-        width: 65%;
-
-        label {
-            font-weight: bold;
-        }
-
-        .search {
-            margin: 10px 0;
-            margin-left: 10px;
-            margin-right: 50px;
-            width: 40%;
-
-            input {
-                width: 100%;
-            }
-        }
-
-        .categories {
-			margin-right: 50px;
-            label {
-                margin-right: 10px;
-            }
-        }
-
-        input[type=submit] {
-            display: block;
-            border: solid 1px black;
-            border-radius: 5px;
-            margin-left: 10px;
-            cursor: pointer;
-            padding: 5px;
-            
-            &:hover{
-				background-color: rgba(000, 000, 000, 0.5);
-				color: white;
-			}
-        }
-    }
-
-    @media screen and (min-width: 600px) {
-        .off_login_articles {
-            flex-wrap: wrap;
-        }
-
-        .card {
-            width: calc(45% - 10px); // Approximately 300px with margin
-            margin: 0 5px;
-        }
-    }
-}
 
 .register{
 	
@@ -357,7 +192,7 @@ html,body{
 				.btn-enregistrer:hover,
 				.input_btn_enregistrer:hover{
 					cursor: pointer;
-					background-color: rgba(178, 222, 39, 1);
+					background-color: cadetblue;
 				}
 			}
 		}
@@ -383,68 +218,6 @@ html,body{
 	
 }
 
-
-.login_page{
-	width: 100%;
-	text-align: center;
-	
-	.error-alerts{
-		.text-error{
-			padding-left: 10px;
-			background-color: rgba(255, 128, 128, 0.5);
-			
-		}
-	}
-	
-	.div_control_form_login{
-		display: flex;
-		justify-content: center;
-		margin-top: 10%;
-		
-		form{
-			border: 1px solid black;
-			padding: 30px;
-			
-			.buttons_connection{
-				
-				input{
-					border: 1px solid black;
-					padding: 10px;
-					border-radius: 0;
-				}
-				input:hover{
-					cursor: pointer;
-				}
-				a{
-					border: 1px solid black;
-					padding: 10px;
-				}
-			}
-			.div-control{
-				label{
-					font-weight: bold;
-				}
-				input{
-					padding: 5px;
-				}
-			}
-		}
-	}
-	.button_create_account{
-		text-align: center;
-		margin-top: 15px;
-		
-		a{
-			margin-top: 10px;
-			padding: 10px 119px 10px 119px;
-			border: 1px solid black;
-		}
-		
-		a:hover{
-			background-color: greenyellow;
-		}
-	}
-}
 
 .nouvele-vente-page{
 	.my_vente_text{
@@ -561,7 +334,7 @@ html,body{
 				color: white;
 			}
 			input:hover{
-				background-color: limegreen;
+				background-color: cadetblue;
 				cursor: pointer;
 			}
 		}
@@ -613,4 +386,5 @@ html,body{
 				margin-right: 80px;
 			}
 	}
+
 }

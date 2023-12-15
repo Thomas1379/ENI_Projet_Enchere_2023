@@ -19,7 +19,7 @@
 <body>
 
 	<nav>
-		<a href="<%=request.getContextPath()%>" class="logo">ENI-Encheres</a>
+		<a href="<%=request.getContextPath()%>" class="logo">Les objets sont nos amis</a>
 		<div>
 			<a href="<%=request.getContextPath()%>/AjoutArticle">Vendre un
 				article</a> <a href="<%=request.getContextPath()%>/Profile">Mon
@@ -104,7 +104,7 @@
 					<input type="number" name="montant" id="montant" /> <input class="fucking_button" type="submit" value="Enchérir" />
 				</form>
 			</div>
-				<img src="https://icancycling.com/cdn/shop/articles/1602491866_1602491862_1601025617_1601025614_SN04_fatbike_b8d050ba-fad4-44b6-89a8-50d66f56930d.jpg?v=1640662944" alt="Article Image">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg">
 		</div>
 
 	</main>

@@ -16,7 +16,7 @@
 </head>
 <body>
 	<nav>
-		<a href="<%=request.getContextPath()%>" class="logo">ENI-Encheres</a>
+		<a href="<%=request.getContextPath()%>" class="logo">Les objets sont nos amis</a>
 		<div>
 			<a href="<%=request.getContextPath()%>/AjoutArticle">Vendre un article</a>
 			<a href="<%=request.getContextPath()%>/Profile">Mon Profil</a>

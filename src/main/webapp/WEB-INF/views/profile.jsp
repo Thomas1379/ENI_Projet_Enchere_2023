@@ -14,7 +14,7 @@
 </head>
 	<body class="edit-profile-page">
 		<nav>
-			<a href="<%=request.getContextPath()%>" class="logo">ENI-Encheres</a>
+			<a href="<%=request.getContextPath()%>" class="logo">Les objets sont nos amis</a>
 			<div>
 				<c:choose>
 					<c:when test="${user != null}">

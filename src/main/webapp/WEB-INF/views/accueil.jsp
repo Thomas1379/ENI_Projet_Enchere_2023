@@ -8,29 +8,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/normalize.css">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/style.scss">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/style.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/accueil.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <title>Accueil</title>
 </head>
 <body>
-
 	<nav>
-		<a href="<%=request.getContextPath()%>" class="logo">ENI-Encheres</a>
+		<a href="<%=request.getContextPath()%>" class="logo">Les objets sont nos amis</a>
 		<div>
 			<a href="<%=request.getContextPath()%>/Login">Login/register</a>
 		</div>
 	</nav>
 	
 	<main class="accueil">
-		<h2>Liste des enchère</h2>
+		<h2>Liste des enchères</h2>
 		<form method="post" action="">
-				<label for="search">Filtres :</label>
+				<label for="search">Filtres : </label>
 				<div class="search">
 					<input type="text" name="search" id="search" placeholder="Que rechercher vous ?" />
 				</div>
+				<br />
 				<div class="categories">
-					<label for="categorie">Catégorie :</label>
+					<label for="categorie">Catégorie : </label>
 					<select name="categorie" id="categorie">
 						<option value="">Choisissez une catégorie</option>
 						<c:forEach items="${categories}" var="categorie">
@@ -43,7 +43,7 @@
 		<div class="container off_login_articles">
 			<c:forEach items="${articles}" var="article">
 				<div class="card">
-   					 <img src="https://icancycling.com/cdn/shop/articles/1602491866_1602491862_1601025617_1601025614_SN04_fatbike_b8d050ba-fad4-44b6-89a8-50d66f56930d.jpg?v=1640662944" alt="Article Image">
+   					 <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg">
 
 					<h3><a href="<%=request.getContextPath()%>/Enchere?id=${article.getNo_article()}"><strong><c:out value="${article.getNom_article()}"/></strong></a></h3>
 					
@@ -79,7 +79,5 @@
 			</c:if>
 		</div>
 	</main>
-
-
 </body>
 </html>
