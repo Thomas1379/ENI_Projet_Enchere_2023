@@ -7,9 +7,7 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/style.css">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/accueil.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/accueil.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <title>Accueil</title>
 </head>
@@ -22,7 +20,7 @@
 	</nav>
 	
 	<main class="accueil">
-		<h2>Liste des enchères</h2>
+		<h1>Liste des enchères</h1>
 		<form method="post" action="">
 				<label for="search">Filtres : </label>
 				<div class="search">

@@ -25,7 +25,7 @@
 	</nav>
 	
 	<main class="accueil">
-		<h2>Liste des enchère</h2>
+		<h1>Liste des enchère</h1>
 		<form method="post" action="">
 				<label for="search">Filtres :</label>
 				<div class="search">

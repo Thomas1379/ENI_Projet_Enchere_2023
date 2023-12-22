@@ -8,7 +8,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/style.scss">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/login.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <title>Login</title>
@@ -41,7 +40,7 @@
 		</div>
 	
 	
-		<h2>Connectez-vous ou créez votre compte</h2>
+		<h1>Connectez-vous ou créez votre compte</h1>
 		<div class="div_control_form_login">
 		
 			<form method="post" action="">
