@@ -24,7 +24,7 @@
 		<form method="post" action="">
 				<label for="search">Filtres : </label>
 				<div class="search">
-					<input type="text" name="search" id="search" placeholder="Que rechercher vous ?" />
+					<input type="text" name="search" id="search" placeholder="Ex: Téléphone" />
 				</div>
 				<br />
 				<div class="categories">
